@@ -8,12 +8,6 @@
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
 
-&mt {
-    tapping-term-ms = <200>;
-    quick-tap-ms = <150>;
-    require-prior-idle-ms = <125>;
-    flavor = "tap-preferred";
-};
 / {
     macros {
         expipe: expipe {
@@ -72,10 +66,10 @@
 
         nav {
             bindings = <
-&none  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4    &none    &none     &none     &none   &none      &none
-&none  &kp LGUI      &kp LALT      &kp LCTRL     &kp LSHFT     &none           &none    &kp LEFT  &kp DOWN  &kp UP  &kp RIGHT  &none
-&none  &none         &none         &none         &none         &bt BT_CLR      &none    &none     &none     &none   &none      &none
-                                   &none         &none         &none           &kp RET  &kp BSPC  &kp DEL
+&none  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4    &none       &none     &none     &none   &none      &none
+&none  &kp LGUI      &kp LALT      &kp LCTRL     &kp LSHFT     &none           &caps_word  &kp LEFT  &kp DOWN  &kp UP  &kp RIGHT  &none
+&none  &none         &none         &none         &none         &bt BT_CLR      &none       &none     &none     &none   &none      &none
+                                   &none         &none         &none           &kp RET     &kp BSPC  &kp DEL
             >;
         };
 
