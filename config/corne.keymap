@@ -9,7 +9,10 @@
 #include <dt-bindings/zmk/keys.h>
 
 &mt {
-    tapping-term-ms = <400>;
+    tapping-term-ms = <300>;
+    quick-tap-ms = <150>;
+    require-prior-idle-ms = <125>;
+    flavor = "tap-unless-interrupted";
 };
 / {
     macros {
