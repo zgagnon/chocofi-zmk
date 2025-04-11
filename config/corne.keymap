@@ -67,7 +67,7 @@
 &none  &kp Q       &kp W       &kp F               &kp P         &kp G      &kp J        &kp L            &kp U               &kp Y       &kp SQT     &none
 &none  &mt LGUI A  &mt LALT R  &mt LEFT_CONTROL S  &mt LSHIFT T  &kp D      &kp H        &mt RSHIFT N     &mt LEFT_CONTROL E  &mt RALT I  &mt RGUI O  &none
 &none  &kp Z       &kp X       &kp C               &kp V         &kp B      &kp K        &kp M            &kp COMMA           &kp DOT     &kp FSLH    &none
-                               &lt 4 ESCAPE        &lt 1 SPACE   &kp TAB    &lt 3 ENTER  &lt 2 BACKSPACE  &lt 4 ESCAPE
+                               &lt 4 ESCAPE        &lt 1 SPACE   &kp TAB    &lt 3 ENTER  &lt 2 BACKSPACE  &expipe
             >;
         };
 
