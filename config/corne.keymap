@@ -67,7 +67,7 @@
 &none  &kp Q       &kp W       &kp F               &kp P         &kp G      &kp J        &kp L            &kp U               &kp Y       &kp SQT     &none
 &none  &mt LGUI A  &mt LALT R  &mt LEFT_CONTROL S  &mt LSHIFT T  &kp D      &kp H        &mt RSHIFT N     &mt LEFT_CONTROL E  &mt RALT I  &mt RGUI O  &none
 &none  &kp Z       &kp X       &kp C               &kp V         &kp B      &kp K        &kp M            &kp COMMA           &kp DOT     &kp A       &none
-                               &lt 4 ESCAPE        &lt 1 SPACE   &kp TAB    &lt 3 ENTER  &lt 2 BACKSPACE  &tog 4
+                               &lt 4 ESCAPE        &lt 1 SPACE   &kp TAB    &lt 3 ENTER  &lt 2 BACKSPACE  &tog 5
             >;
         };
 
@@ -75,7 +75,7 @@
             bindings = <
 &none   &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4    &none       &none     &none     &none   &none      &none
 &none   &kp LGUI      &kp LALT      &kp LCTRL     &kp LSHFT     &none           &caps_word  &kp LEFT  &kp DOWN  &kp UP  &kp RIGHT  &none
-&tog 4  &none         &none         &none         &none         &bt BT_CLR      &none       &none     &none     &none   &none      &none
+&tog 4  &tog 4        &none         &none         &none         &bt BT_CLR      &none       &none     &none     &none   &none      &none
                                     &none         &none         &none           &kp RET     &kp BSPC  &kp DEL
             >;
         };
@@ -104,6 +104,15 @@
 &none  &kp A  &kp S  &kp D  &kp F               &kp LEFT_ALT    &kp N4  &kp N5  &kp N6  &skinny_arrow  &back_arrow  &none
 &kp Z  &kp Z  &none  &none  &kp LA(LEFT_SHIFT)  &kp LCTRL       &kp N1  &kp N2  &kp N3  &none          &none        &none
                      &none  &kp SPACE           &kp TAB         &kp N0  &none   &none
+            >;
+        };
+
+        layer_5 {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans   &trans      &trans       &trans         &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &expipe  &fat_arrow  &back_arrow  &skinny_arrow  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans   &trans      &trans       &trans         &trans
+                        &trans  &trans  &trans    &trans  &trans   &trans
             >;
         };
     };
